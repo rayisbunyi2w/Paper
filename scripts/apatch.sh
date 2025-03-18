@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+echo ======== debug ========
+pwd
+echo ======== debug ========
+
 gitcmd="git -c commit.gpgsign=false"
 
 noapply=1
